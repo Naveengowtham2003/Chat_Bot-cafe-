@@ -1,0 +1,257 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Welcome to our grocery shop",
+        "Hey :-)",
+        "Hello, how can I help you",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "good bye",
+        "catch you latter"
+      ],
+      "responses": [
+        "See you later, will be always waiting to serve you",
+        "Have a nice day"
+      ]
+    },
+    {
+      "tag": "types-of-beverages",
+      "patterns": [
+        "can you tell me the types of beverages",
+        "Available beverages",
+        "What are the types of beverages availabe",
+        "types of beverages",
+        "beverages"
+      ],
+      "responses": [
+        "At present the following are available\n1.cola \n2.hot-chocolet \n3.bottled-water \n4.Strawberry Milk shake \n5.Avocado Milk Shake",
+        "The various beverages  thatare available\n1.cola \n2.hot-chocolet \n3.bottled-water \n4.Strawberry Milk shake \n5.Avocado Milk Shake"
+      ]
+    },
+    {
+      "tag": "cost-of Espresso",
+      "patterns": [
+        "what is the cost of Espresso",
+        "Espresso",
+        "tell me the cost of Espresso",
+        "cost of Espresso",
+        "how much a Espresso cost"
+      ],
+      "responses": ["95 Rs"]
+    },
+    {
+      "tag": "cost-of Robusta",
+      "patterns": [
+        "what is the cost of Robusta",
+        "Robusta",
+        "tell me the cost of Robusta",
+        "cost of Robusta",
+        "how much a Robusta cost"
+      ],
+      "responses": ["105 Rs"]
+    },
+    {
+      "tag": "cost-of Robusta",
+      "patterns": [
+        "what is the cost of Robusta",
+        "Robusta",
+        "tell me the cost of Robusta",
+        "cost of Robusta",
+        "how much a Robusta cost"
+      ],
+      "responses": ["105 Rs"]
+    },
+    {
+      "tag": "cost-of Liberica",
+      "patterns": [
+        "what is the cost of Liberica",
+        "Liberica",
+        "tell me the cost of Liberica",
+        "cost of Liberica",
+        "how much  Liberica costs"
+      ],
+      "responses": ["85 Rs"]
+    },
+    {
+      "tag": "cost-of Liberica",
+      "patterns": [
+        "what is the cost of Liberica",
+        "Liberica",
+        "tell me the cost of Liberica",
+        "cost of Liberica",
+        "how much  Liberica costs"
+      ],
+      "responses": ["85 Rs"]
+    },
+    {
+      "tag": "cost-of Excelsa",
+      "patterns": [
+        "what is the cost of Excelsa",
+        "Excelsa",
+        "tell me the cost of Excelsa",
+        "cost of Excelsa",
+        "how much  Excelsa costs"
+      ],
+      "responses": ["115 Rs"]
+    },
+    {
+      "tag": "cost-of cafechino",
+      "patterns": [
+        "what is the cost of cafechino",
+        "cafechino",
+        "tell me the cost of cafechino",
+        "cost of cafechino",
+        "how much  cafechino costs"
+      ],
+      "responses": ["155 Rs"]
+    },
+
+    {
+      "tag": "types-of-beverages",
+      "patterns": [
+        "can you tell me the types of coffees",
+        "Available coffees",
+        "What are the types of coffees availabe",
+        "types of coffees",
+        "coffees"
+      ],
+      "responses": [
+        "At present the following are available\n1.Espresso \n2.Robusta \n3.Liberica \n4.Excelsa \n5.cafechino",
+        "The various coffees available are available\n1.Espresso \n2.Robusta \n3.Liberica \n4.Excelsa \n5.cafechino"
+      ]
+    },
+    {
+      "tag": "cost-of cola",
+      "patterns": [
+        "what is the cost of cola",
+        "cola",
+        "tell me the cost of cola",
+        "cost of cola",
+        "how much  cola costs"
+      ],
+      "responses": ["25 Rs"]
+    },
+    {
+      "tag": "cost-of hot-chocolet",
+      "patterns": [
+        "what is the cost of hot-chocolet",
+        "hot-chocolet",
+        "tell me the cost of hot-chocolet",
+        "cost of hot-chocolet",
+        "how much  hot-chocolet costs"
+      ],
+      "responses": ["150 Rs"]
+    },
+    {
+      "tag": "cost-of bottled-water",
+      "patterns": [
+        "what is the cost ofbottled-water",
+        "bottled-water",
+        "tell me the cost of bottled-water",
+        "cost of bottled-water",
+        "how much  bottled-water costs"
+      ],
+      "responses": ["15 Rs"]
+    },
+    {
+      "tag": "cost-of Strawberry Milk shake",
+      "patterns": [
+        "what is the cost of Strawberry Milk shake",
+        "Strawberry Milk shake",
+        "tell me the cost of Strawberry Milk shake",
+        "cost of Strawberry Milk shake",
+        "how much Strawberry Milk shake costs"
+      ],
+      "responses": ["200 Rs"]
+    },
+    {
+      "tag": "cost-of Avocado Milk Shake",
+      "patterns": [
+        "what is the cost of Avocado Milk Shake",
+        "Avocado Milk Shake",
+        "tell me the cost of Avocado Milk Shake",
+        "cost of Avocado Milk Shake",
+        "how much Avocado Milk Shake costs"
+      ],
+      "responses": ["300 Rs"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Cofee",
+      "patterns": [
+        "What are the various types of cofees that you sale",
+        "Types of coffee",
+        "Cofees that are available",
+        "Available coffees"
+      ],
+      "responses": ["1.Arabica \n 2.Robusta\n3.Liberica\n4.Excelsa"]
+    },
+
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal and so on ",
+        "We accept most major credit cards, and Paypal and so on"
+      ]
+    }
+  ]
+}
